@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .quebra {
+            display: block;
+        }
+    
+        .espaco {
+            margin-bottom: 15px;
+        }
+    
+        .espaco_t {
+            margin-top: 15px;
+        }
+    
+        form {
+            border: 1px solid #000;
+            padding: 10px;
+            border-radius: 15px;
+            background-color: #eee;
+        }
+    </style>
+</head>
+<body>
+    <form name=" f_cadastro"="" action="#" method="get"><head></head><body><input list="f_cores" name="f_cor">
+
+        <datalist id="f_cores">
+    
+            <option value="red">vermelho</option>
+            <option value="green">verde</option>
+            <option value="blue">azul</option>
+            <option value="yellow">amarelo</option>
+            <option value="white">Branco</option>
+            <option value="beige">Bege</option>
+    
+        </datalist>
+        <datalist id="f_Transporte">
+    
+            <option value="01">carro</option>
+            <option value="02">aviao</option>
+            <option value="03">navio</option>
+            <option value="04">motocicleta</option>
+    
+        </datalist>
+    
+    
+        <input class="espaco_t quebra" type="submit" name="f_enviar" value="Enviar">
+    
+</body>
+</html>

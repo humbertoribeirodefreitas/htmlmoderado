@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula16</title>
+    <style type="text/css">
+     iframe{
+        width:500px;
+        height:300px;
+        border:none;
+     }
+     .quebra {
+            display: block;
+        }
+
+        .espaco {
+            margin-bottom: 15px;
+        }
+
+        .espaco_t {
+            margin-top: 15px;
+        }
+
+        form {
+            border: 1px solid #000;
+            padding: 10px;
+            border-radius: 15px;
+            background-color: #eee;
+        }
+    </style>
+</head>
+<body>
+    <iframe src="https://youtu.be/XimmximMPnE" frameborder="0"></iframe>
+    <iframe src="https://www.w3schools.com/html/default.asp" frameborder="0"></iframe>
+    <iframe src="http://cfbcursos.com.br" frameborder="0"></iframe>
+    <form name="f_cadastro" action="#" method="get"></form>
+
+        <fieldset>
+            <legend>dados1</legend>
+            <label class="quebra">none:</label>
+            <input type="text" name="f_name" id="f_nome" class="quebra"><br>
+            <label class="quebra">telefone:</label>
+            <input type="tel" name="f_telefone" id="f_telefone" class="quebra"><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>dados2</legend>
+            <label for="f_nome">possui um carro</label><br>
+            <input type="radio" name="fcarro" id="fcarro" value="s" checked>sim<br>
+            <input type="radio" name="fcarro" id="fcarro" value="n">nao<br>
+            <br>
+            <label for="f_nome">possui casa propria</label><br>
+            <input type="radio" name="fcarro" id="fcarro" value="s" checked>sim<br>
+            <input type="radio" name="fcarro" id="fcarro" value="n">nao<br>
+        </fieldset>
+
+        <input class="espaco_t quebra" type="submit" name="f_enviar" value="Enviar">
+    </form>
+  
+    
+</body>
+</html>
